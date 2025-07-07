@@ -7,7 +7,7 @@ const Header = () => {
       <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-between">
         <a href="/" className="logo d-flex align-items-center me-auto me-xl-0">
           {/* <img src="/assets/img/logo.webp" alt="Logo" /> */}
-          <h1 className="sitename">EasyFolio</h1>
+          <h1 className="sitename">LUITE</h1>
         </a>
 
         <nav id="navmenu" className="navmenu">
