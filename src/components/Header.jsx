@@ -21,59 +21,56 @@ const Header = () => {
     <header id="header" className="header d-flex align-items-center sticky-top">
       <div className="header-container container-fluid container-xl position-relative d-flex align-items-center justify-between" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         {/* Logo Left */}
-        <a href="/" className="logo d-flex align-items-center me-auto me-xl-0" style={{ flex: '0 0 auto' }}>
+        <a href="/" className="logo d-flex align-items-center me-auto me-xl-0" style={{ flex: '0 0 auto', textDecoration: 'none' }}>
           {/* <img src="/assets/img/logo.webp" alt="Logo" /> */}
           <h1 className="sitename">LUITE</h1>
         </a>
 
         {/* Menus Center */}
-        <nav id="navmenu" className="navmenu" style={{ flex: '1 1 auto', display: 'flex', justifyContent: 'center' }}>
-          <ul style={{ display: 'flex', gap: '2rem', margin: 0, padding: 0, alignItems: 'center', listStyle: 'none' }}>
-            <li><Link to="hero" smooth={true} duration={500} className="active">Home</Link></li>
-            <li><Link to="about" smooth={true} duration={500}>About</Link></li>
-            <li className="dropdown">
-              <a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li className="dropdown">
-                  <a href="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li>
-            <li><Link to="portfolio" smooth={true} duration={500}>Portfolio</Link></li>
-            <li><Link to="services" smooth={true} duration={500}>Services</Link></li>
-            <li className="dropdown">
-              <a href="#"><span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Dropdown 1</a></li>
-                <li className="dropdown">
-                  <a href="#"><span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Dropdown 1</a></li>
-                    <li><a href="#">Deep Dropdown 2</a></li>
-                    <li><a href="#">Deep Dropdown 3</a></li>
-                    <li><a href="#">Deep Dropdown 4</a></li>
-                    <li><a href="#">Deep Dropdown 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Dropdown 2</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li>
+<nav id="navmenu" className="navmenu" style={{ flex: '1 1 auto', display: 'flex', justifyContent: 'center' }}>
+  <ul style={{ display: 'flex', gap: '2rem', margin: 0, padding: 0, alignItems: 'center', listStyle: 'none' }}>
+    <li><Link to="hero" smooth={true} duration={500} className="active" style={{ cursor: 'pointer', textDecoration: 'none' }}>Home</Link></li>
+    <li><Link to="about" smooth={true} duration={500} style={{ cursor: 'pointer', textDecoration: 'none' }}>About</Link></li>
+    
+    <li className="dropdown">
+      <a href="#" style={{ textDecoration: 'none', cursor: 'pointer' }}>
+        <span>Services</span> <i className="bi bi-chevron-down toggle-dropdown"></i>
+      </a>
+      <ul>
+        <li><a href="#" style={{ textDecoration: 'none' }}>Website Development</a></li>
+        <li><a href="#" style={{ textDecoration: 'none' }}>App Development</a></li>
+        <li><a href="#" style={{ textDecoration: 'none' }}>Web Design</a></li>
+        <li><a href="#" style={{ textDecoration: 'none' }}>Graphic Design</a></li>
+      </ul>
+    </li>
 
+    <li><Link to="portfolio" smooth={true} duration={500} style={{ cursor: 'pointer', textDecoration: 'none' }}>Portfolio</Link></li>
+
+    <li className="dropdown">
+      <a href="#" style={{ textDecoration: 'none', cursor: 'pointer' }}>
+        <span>Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i>
+      </a>
+      <ul>
+        <li><a href="#" style={{ textDecoration: 'none' }}>Dropdown 1</a></li>
+        <li className="dropdown">
+          <a href="#" style={{ textDecoration: 'none' }}>
+            <span>Deep Dropdown</span> <i className="bi bi-chevron-down toggle-dropdown"></i>
+          </a>
+          <ul>
+            <li><a href="#" style={{ textDecoration: 'none' }}>Deep Dropdown 1</a></li>
+            <li><a href="#" style={{ textDecoration: 'none' }}>Deep Dropdown 2</a></li>
+            <li><a href="#" style={{ textDecoration: 'none' }}>Deep Dropdown 3</a></li>
+            <li><a href="#" style={{ textDecoration: 'none' }}>Deep Dropdown 4</a></li>
+            <li><a href="#" style={{ textDecoration: 'none' }}>Deep Dropdown 5</a></li>
           </ul>
-        </nav>
+        </li>
+        <li><a href="#" style={{ textDecoration: 'none' }}>Dropdown 2</a></li>
+        <li><a href="#" style={{ textDecoration: 'none' }}>Dropdown 3</a></li>
+        <li><a href="#" style={{ textDecoration: 'none' }}>Dropdown 4</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
         {/* Contact Button Right */}
         <div style={{ flex: '0 0 auto', display: 'flex', alignItems: 'center', gap: '1rem' }}>
