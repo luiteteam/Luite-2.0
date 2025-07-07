@@ -14,7 +14,6 @@ const Header = () => {
           <ul>
             <li><Link to="hero" smooth={true} duration={500} className="active">Home</Link></li>
             <li><Link to="about" smooth={true} duration={500}>About</Link></li>
-            <li><Link to="resume" smooth={true} duration={500}>Resume</Link></li>
             <li><Link to="portfolio" smooth={true} duration={500}>Portfolio</Link></li>
             <li><Link to="services" smooth={true} duration={500}>Services</Link></li>
             <li className="dropdown">

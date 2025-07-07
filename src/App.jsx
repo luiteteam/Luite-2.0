@@ -4,7 +4,6 @@ import './index.css';
 import About from './components/About';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
-import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
 import Services from './components/Services';
@@ -20,7 +19,6 @@ function App() {
         <Hero />
         <About />
         <Skills />
-        <Resume />
         <Portfolio />
         <Testimonials />
         <Services />
