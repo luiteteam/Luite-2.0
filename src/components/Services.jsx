@@ -4,27 +4,27 @@ import 'aos/dist/aos.css';
 
 const serviceList = [
   {
-    icon: 'bi bi-activity',
-    title: 'Eget nulla facilisi etiam',
-    desc: 'Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.',
+    icon: 'bi bi-laptop',
+    title: 'Website Development',
+    desc: 'Custom, responsive, and high-performance websites for your business or brand.',
     delay: 200,
   },
   {
-    icon: 'bi bi-easel',
-    title: 'Duis aute irure dolor',
-    desc: 'Auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor.',
+    icon: 'bi bi-phone',
+    title: 'App Development',
+    desc: 'Mobile app solutions for iOS and Android, tailored to your needs.',
     delay: 300,
   },
   {
-    icon: 'bi bi-broadcast',
-    title: 'Excepteur sint occaecat',
-    desc: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.',
+    icon: 'bi bi-palette',
+    title: 'Web Design',
+    desc: 'Modern, user-friendly, and visually stunning web design services.',
     delay: 400,
   },
   {
-    icon: 'bi bi-bounding-box-circles',
-    title: 'Tempor incididunt ut labore',
-    desc: 'Ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.',
+    icon: 'bi bi-brush',
+    title: 'Graphic Design',
+    desc: 'Creative graphic design for branding, marketing, and digital presence.',
     delay: 500,
   },
 ];
@@ -38,7 +38,7 @@ const Services = () => {
     <section id="services" className="services section">
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
+        <h2>What we do?</h2>
         <div className="title-shape">
           <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -50,8 +50,7 @@ const Services = () => {
           </svg>
         </div>
         <p>
-          Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-          consequatur vel illum qui dolorem
+        Empowering your digital presence with tailored, high-quality solutions.
         </p>
       </div>
 
@@ -59,15 +58,11 @@ const Services = () => {
         <div className="row align-items-center">
           <div className="col-lg-4 mb-5 mb-lg-0">
             <h2 className="fw-bold mb-4 servies-title">
-              Consectetur adipiscing elit sed do eiusmod tempor
+            Transforming Ideas into Digital Excellence
             </h2>
             <p className="mb-4">
-              Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit class aptent
-              taciti sociosqu ad litora.
+            We craft customized digital experiences by blending creativity, strategy, and technology to help your brand stand out and drive business growth.
             </p>
-            <a href="#" className="btn btn-outline-primary">
-              See all services
-            </a>
           </div>
 
           <div className="col-lg-8">

@@ -1,0 +1,24 @@
+.icon-scroll-container {
+  width: 100vw;
+  overflow-x: hidden;
+  white-space: nowrap;
+  position: relative;
+  padding: 2rem 0;
+}
+
+.icon-row {
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+
+.tech-icon {
+  font-size: 3rem;
+  margin: 0 2.5rem;
+  color: #222;
+  transition: color 0.2s;
+}
+
+.tech-icon:hover {
+  color: #007bff;
+} 

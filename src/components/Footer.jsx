@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         <div className="credits mt-3">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="https://www.luite.in/">LUITE</a>
         </div>
       </div>
     </footer>
