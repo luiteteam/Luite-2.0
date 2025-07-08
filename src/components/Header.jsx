@@ -29,7 +29,6 @@ const Header = () => {
   };
 
   // Helper to detect mobile (for conditional rendering)
-  const isMobile = () => window.innerWidth < 1200;
 
   return (
     <header id="header" className={`header d-flex align-items-center sticky-top${mobileNavActive ? ' mobile-nav-active' : ''}`}> 

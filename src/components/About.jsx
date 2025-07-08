@@ -23,9 +23,9 @@ const About = () => {
           </svg>
         </div>
         <p>
-          Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-          consequatur vel illum qui dolorem
+          We’re a newly formed creative agency focused on building fast, user-friendly, and impactful websites for startups, creators, and businesses of all sizes.
         </p>
+
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -43,55 +43,43 @@ const About = () => {
           <div className="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div className="about-content">
               <span className="subtitle">About Me</span>
-              <h2>UI/UX Designer &amp; Web Developer</h2>
+              <h2>We are a passionate team of Web Designers & Developers</h2>
               <p className="lead mb-4">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                We are a fresh and energetic web design agency, founded by a group of 4–5 like-minded designers and developers dedicated to building high-performance, visually striking websites.
               </p>
               <p className="mb-4">
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+                Whether you're a startup or a growing brand, we help turn your ideas into digital experiences that connect, convert, and inspire.
               </p>
 
               <div className="personal-info">
                 <div className="row g-4">
                   <div className="col-6">
                     <div className="info-item">
-                      <span className="label">Name</span>
-                      <span className="value">Eliot Johnson</span>
+                      <span className="label">Founded</span>
+                      <span className="value">2025</span>
                     </div>
                   </div>
                   <div className="col-6">
                     <div className="info-item">
-                      <span className="label">Phone</span>
-                      <span className="value">+123 456 7890</span>
+                      <span className="label">Team Size</span>
+                      <span className="value">4–5 Members</span>
                     </div>
                   </div>
                   <div className="col-6">
                     <div className="info-item">
-                      <span className="label">Age</span>
-                      <span className="value">26 Years</span>
+                      <span className="label">Services</span>
+                      <span className="value">Web Design, Development, Branding</span>
                     </div>
                   </div>
                   <div className="col-6">
                     <div className="info-item">
-                      <span className="label">Email</span>
-                      <span className="value">email@example.com</span>
-                    </div>
-                  </div>
-                  <div className="col-6">
-                    <div className="info-item">
-                      <span className="label">Occupation</span>
-                      <span className="value">Lorem Engineer</span>
-                    </div>
-                  </div>
-                  <div className="col-6">
-                    <div className="info-item">
-                      <span className="label">Nationality</span>
-                      <span className="value">Ipsum</span>
+                      <span className="label">Clients</span>
+                      <span className="value">Startups, SMEs, Creators</span>
                     </div>
                   </div>
                 </div>
               </div>
+
 
               <div className="signature mt-4">
                 <div className="signature-image">
@@ -101,10 +89,11 @@ const About = () => {
                     className="img-fluid"
                   />
                 </div>
-                <div className="signature-info">
-                  <h4>Eliot Johnson</h4>
-                  <p>Adipiscing Elit, Lorem Ipsum</p>
+                <div className="signature-info mt-4">
+                  <h4>Team LUITE</h4>
+                  <p>Your Creative Web Partner</p>
                 </div>
+
               </div>
             </div>
           </div>
