@@ -50,7 +50,7 @@ const Header = () => {
         {/* Menus Center */}
         <nav id="navmenu" className="navmenu">
           <ul style={{ display: mobileNavActive ? 'block' : 'flex', gap: '2rem', margin: 0, padding: 0, alignItems: 'center', listStyle: 'none' }}>
-            <li><a href="/" smooth={true} duration={500} className="active" style={{ cursor: 'pointer', textDecoration: 'none' }} onClick={() => setMobileNavActive(false)}>Home</a></li>
+            <li><a href="/" className="active" style={{ cursor: 'pointer', textDecoration: 'none' }} onClick={() => setMobileNavActive(false)}>Home</a></li>
             <li><a href="/career" style={{ cursor: 'pointer', textDecoration: 'none' }} onClick={() => setMobileNavActive(false)}>Career</a></li>
             <li className="dropdown">
               <a href="#" style={{ textDecoration: 'none', cursor: 'pointer' }} onClick={e => { if (mobileNavActive) { e.preventDefault(); handleDropdown(0); } }}>
