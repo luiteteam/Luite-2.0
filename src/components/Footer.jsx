@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="copyright">
           <p>
             © <span>Copyright</span>{' '}
-            <strong className="px-1 sitename">EasyFolio</strong>{' '}
+            <strong className="px-1 sitename">LUITE</strong>{' '}
             <span>All Rights Reserved</span>
           </p>
         </div>

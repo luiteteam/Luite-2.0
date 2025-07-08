@@ -10,23 +10,30 @@ import Services from './components/Services';
 import Faq from './components/Faq';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Career from './pages/Career';
 
 function App() {
+  const isCareer = typeof window !== 'undefined' && window.location.pathname === '/career';
   return (
     <div className="index-page">
       <Header />
       <main className="main">
-        <Hero />
-        <Services />
-        <About />
-        <Skills />
-        <Portfolio />
-        <Testimonials />
-
-        <Faq />
-          <Contact />
+        {isCareer ? (
+          <Career />
+        ) : (
+          <>
+            <Hero />
+            <Services />
+            <About />
+            <Skills />
+            <Portfolio />
+            <Testimonials />
+            <Faq />
+            <Contact />
+          </>
+        )}
       </main>
-       <Footer />
+      <Footer />
     </div>
   );
 }

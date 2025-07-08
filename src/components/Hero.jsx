@@ -38,7 +38,7 @@ const Hero = () => {
           <div className="col-lg-6">
             <div className="hero-image">
               <img
-                src="/assets/img/profile/profile-1.webp"
+                src="/assets/img/hero1.png"
                 alt="Portfolio Hero"
                 className="img-fluid"
                 data-aos="zoom-out"
