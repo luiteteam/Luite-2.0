@@ -71,6 +71,7 @@ const About = () => {
         <p>
           Discover what sets us apart as your digital partner. We combine creativity, technology, and strategy to help your business thrive online.
         </p>
+
       </div>
 
       <div className="container" data-aos="fade-up" data-aos-delay="100" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '400px', position: 'relative' }}>
